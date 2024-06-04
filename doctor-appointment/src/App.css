@@ -1,0 +1,44 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Form.css */
+.appointment-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* List.css */
+.availability-container,
+.doctor-container {
+  margin-bottom: 30px;
+}
+
+.availability-list,
+.doctor-list {
+  list-style: none;
+  padding: 0;
+}
+
+.doctor-list li,
+.availability-list li {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.doctor-list li:hover,
+.availability-list li:hover {
+  background-color: #f0f0f0;
+}

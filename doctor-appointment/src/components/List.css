@@ -1,0 +1,52 @@
+/* List.css */
+.doctor-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.doctor-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.doctor-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.doctor-info {
+  flex: 1;
+}
+
+.doctor-info h3 {
+  margin: 0 0 10px;
+}
+
+.doctor-info p {
+  margin: 5px 0;
+  color: #6c757d;
+}
+
+.doctor-info p strong {
+  color: #343a40;
+}

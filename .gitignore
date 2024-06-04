@@ -1,0 +1,16 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore environment folder
+myenv/
+
+# Ignore node_modules and build folders
+node_modules/
+build/
+
+# Ignore Django database
+db.sqlite3
+
+# Ignore other sensitive files
+.env
