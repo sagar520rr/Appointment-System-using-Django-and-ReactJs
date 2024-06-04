@@ -32,7 +32,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'sagar1412rathod@gmail.com'
-EMAIL_HOST_PASSWORD = 'gbgh rbwd wrmv vsxu'
+EMAIL_HOST_PASSWORD =
 
 import os
 MEDIA_URL = '/media/'
